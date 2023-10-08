@@ -11,10 +11,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #444;
-
-  background-color: #f3f3f3;
-
+  color: white;
+  background-color: #333;
   height: 100vh;
   padding: 2rem;
 }
@@ -32,7 +30,7 @@ nav {
 }
 
 .logo {
-  height: 5.25rem;
+  height: 10.25rem;
 }
 
 .login {
@@ -48,7 +46,7 @@ nav {
   width: 12rem;
   border-radius: 10rem;
   margin-right: 1rem;
-  color: inherit;
+  color: #333;
   border: 1px solid #fff;
   transition: all 0.3s;
 }
@@ -59,7 +57,7 @@ nav {
 }
 
 .login__input::placeholder {
-  color: #bbb;
+  color: #333;
 }
 
 .login__btn {
@@ -89,7 +87,7 @@ nav {
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
 
-  /* NOTE This creates the fade in/out anumation */
+  /* NOTE This creates the fade in/out animation */
   opacity: 0;
   transition: all 1s;
 }
@@ -110,7 +108,7 @@ nav {
 
 .balance__date {
   font-size: 1.4rem;
-  color: #888;
+  color: white;
 }
 
 .balance__value {
@@ -138,6 +136,7 @@ nav {
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
+  /* color: #333; */
   padding: 0.1rem 1rem;
   border-radius: 10rem;
   margin-right: 2rem;
@@ -161,6 +160,7 @@ nav {
 .movements__value {
   font-size: 1.7rem;
   margin-left: auto;
+  color: #333;
 }
 
 /* SUMMARY */
@@ -200,6 +200,7 @@ nav {
   font-size: 1.3rem;
   font-weight: 500;
   cursor: pointer;
+  color: #fff;
 }
 
 /* OPERATIONS */
