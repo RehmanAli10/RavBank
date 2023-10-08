@@ -218,7 +218,6 @@ btnLogin.addEventListener("click", function (e) {
   );
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    
     // Display UI and message
 
     labelWelcome.textContent = `Welcome back, ${
@@ -337,6 +336,8 @@ btnClose.addEventListener("click", function (e) {
 
   // Clearing Input fields
   inputCloseUsername.value = inputClosePin.value = "";
+
+  labelWelcome.textContent = "Log in to get started";
 });
 
 // Sorting
